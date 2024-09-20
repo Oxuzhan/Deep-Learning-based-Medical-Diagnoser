@@ -18,9 +18,9 @@ lemmatizer = WordNetLemmatizer()
 
 # Google Gemini API 
 def get_gemini_response(symptoms):
-    url = "https://ai.google.dev/api/all-methods#generative-language-api"  # Google Gemini API endpoint
+    url = "url"  # Google Gemini API endpoint
     headers = {
-        'Authorization': 'Bearer AIzaSyAuUZrftqbyxtH6cRa4xHPiQLgDLiOnNUM',  
+        'Authorization': 'Bearer apıkey',  
         'Content-Type': 'application/json',
     }
     
